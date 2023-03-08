@@ -1,0 +1,74 @@
+@import url('https://fonts.cdnfonts.com/css/nixie-one');
+body{
+    background-color:  cadetblue /* linear-gradient( to top left,#efB0c9,#f4c2d7,#f8dae9,#b9d6f3,#a1c9f1,#f1e8d9) */;
+    font-family: 'Nixie One', sans-serif;
+    background-size: 1000px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            b                                             bbbbnbbn                                                                                                                                                                                                                                                                                                                          bn                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    b,#b9f3e4,#BE6DB7,#fcc2fc);
+}
+p
+{
+    color: white;
+    text-align: center;
+    font-style:initial;
+    font-size: large;
+}
+.list
+{
+    color: white;
+    text-align: center;
+}
+img 
+{
+    width: 50px;
+}
+
+.pics:hover
+{
+    animation: up 2s linear infinite;
+}
+@keyframes up
+{
+    0%
+    {
+        transform: translate(0px, 0px);
+    }
+    50%
+    {
+        transform: translate(0px, -10px);
+    }
+    100%
+    {
+        transform: translate(0px, 0px);
+    }
+}
+.cake:hover
+{
+    animation: turn 2s linear infinite;
+}
+@keyframes turn 
+{
+    0%
+    {
+        transform: rotate(-45deg)
+    }
+    50%
+    {
+        transform: rotate(45deg);
+    }
+    100%
+    {
+        transform: rotate(-45deg);
+    }    
+}
+.heading{
+    width: 400px;
+}
+.cake{
+    width: 85px;
+}
+.period{
+    font-style: italic;
+}
+.bday
+{
+    width: 400px;
+}

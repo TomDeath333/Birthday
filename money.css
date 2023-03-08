@@ -1,0 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/nixie-one');
+body{
+    background-color: darkslategray;
+    font-family: 'Nixie One', sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: dashed white;
+}
